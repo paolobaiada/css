@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.format{
+    border: 1px solid black;
+    padding: 10px;
+}
+.image img{
+    width: 100%;
+    height: auto;
+}
+.paragraph{
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: 800;
+}
+.link a{
+    margin: 0 10px;
+    color: lightskyblue;
+}
