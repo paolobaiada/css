@@ -1,4 +1,5 @@
 .grid-container{
+<<<<<<< HEAD
    grid-template-columns: repeat(3, 1fr); 
    grid-template-rows: repeat(4, 1fr);
    /*  display: grid;
@@ -28,3 +29,28 @@
 
 
  */
+=======
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1 fr) ;
+}
+#green{
+    grid-column: span 3;
+}
+.first-line{
+    display: flex;
+}
+.second-line{
+    display: flex;
+}
+
+#orange{
+    grid-column: span 2;
+}
+#blue{
+   grid-row: span 2;
+}
+ul li{
+    width: 40px;
+}
+>>>>>>> 1cfce9faafa990746752f1eee8dc142efd5a6ac7
