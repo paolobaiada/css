@@ -1,0 +1,30 @@
+.grid-container{
+   grid-template-columns: repeat(3, 1fr); 
+   grid-template-rows: repeat(4, 1fr);
+   /*  display: grid;
+    grid-template-areas: 
+                         "g g g"
+                         "y r b"
+                         "o o b"; */
+    
+}
+
+ #yellow{
+    
+   /* grid-area: y ; */
+}
+#red{
+    /* grid-area: r ; */
+}
+#orange{
+   /*  grid-area: o; */
+}
+#blue{
+   /*  grid-area: b; */
+}
+#green{
+   /*  grid-area: g; */
+}
+
+
+ */
